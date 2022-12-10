@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert new Result</title>
+<link rel="stylesheet" href="admin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+
+</head>
+<body>
+
+<header class="header">
+			 <img src="IMAGES/logo.png"  alt="..." id="logo">
+		
+      <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="insert.html">Insert new result</a></li>
+          <li><a href="admin.html">Add new student </a></li>
+          <li><a href="#">All student list</a></li>
+                    <li><a href="#">Logout</a></li>
+          
+      </ul>
+	</header> 
+
+
+ <form method="post" action="insertResult.jsp">
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-6">
+            
+                <div class="form">
+                    <h2>Add Result</h2>
+                    <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Roll number" name="roll " class="form-control"> </div>
+                    <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Physics" name="physics" class="form-control"> </div>
+                                        <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Chemistry" name="chemistry" class="form-control"> </div>
+                                       <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Mathematics" name="mathematics" class="form-control"> </div>
+                                        <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Electrical" name="electrical" class="form-control"> </div>
+                                        <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Electronic" name="electronic" class="form-control"> </div>
+                                        <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Chemistry lab" name="chemistrylab" class="form-control"> </div>
+                                        <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Physics lab" name="physicslab" class="form-control"> </div>
+                                                                               <div class="inputbox mt-3"> <span></span> <input type="text" placeholder="Hindi" name="hindi" class="form-control"> </div>
+                                       
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="text-right"> <button class="btn btn-success register btn-block">Save</button> </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
